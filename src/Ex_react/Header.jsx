@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
   <nav className="navbar navbar-expand-lg bg-dark">
-    <div className="container-fluid">
+    <div className="container">
       <a className="navbar-brand text-white" href="#">Start Bootstrap</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
@@ -18,10 +18,7 @@ export default function Header() {
             <a className="nav-link text-white" href="#">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="#">Services</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-white">Contact</a>
+            <a className="nav-link text-white" href="#">Contract</a>
           </li>
         </ul>
       </div>
